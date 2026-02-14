@@ -1,0 +1,14 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.next
+PLAN.md
+PLAN-Value.md
+*.pem
+server.js
+server-http.js
+server.log
+cert.pem
+key.pem

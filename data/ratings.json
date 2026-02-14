@@ -1,0 +1,58 @@
+[
+  {
+    "toolId": "kimi",
+    "useCase": "research",
+    "rating": 5,
+    "comment": "长文档处理能力超强，200万字上下文很适合做深度研究",
+    "author": "用户A",
+    "date": "2025-02-10"
+  },
+  {
+    "toolId": "kimi",
+    "useCase": "write",
+    "rating": 4,
+    "comment": "写作不错，但创意方面不如Claude",
+    "author": "用户B",
+    "date": "2025-02-12"
+  },
+  {
+    "toolId": "claude",
+    "useCase": "code",
+    "rating": 5,
+    "comment": "代码能力确实强，特别是代码解释和重构",
+    "author": "用户C",
+    "date": "2025-02-11"
+  },
+  {
+    "toolId": "claude",
+    "useCase": "write",
+    "rating": 5,
+    "comment": "写作能力顶级，逻辑清晰，表达自然",
+    "author": "用户D",
+    "date": "2025-02-13"
+  },
+  {
+    "toolId": "chatgpt",
+    "useCase": "code",
+    "rating": 4,
+    "comment": "综合能力很强，但需要翻墙很不方便",
+    "author": "用户E",
+    "date": "2025-02-09"
+  },
+  {
+    "toolId": "tongyi-lingma",
+    "useCase": "code",
+    "rating": 4,
+    "comment": "国内免费，代码补全很快，适合日常使用",
+    "author": "用户F",
+    "date": "2025-02-08"
+  },
+  {
+    "toolId": "metaso",
+    "useCase": "research",
+    "rating": 5,
+    "comment": "搜索结果结构化，学术搜索特别好用",
+    "author": "用户G",
+    "date": "2025-02-14"
+  }
+]

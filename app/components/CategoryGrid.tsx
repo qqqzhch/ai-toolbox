@@ -71,7 +71,7 @@ export default function CategoryGrid() {
             return (
               <a
                 key={category.id}
-                href={`/category/${category.id}`}
+                href={`/category/${category.id}.html`}
                 className="group p-6 rounded-2xl border border-gray-100 hover:border-primary-200 hover:shadow-lg transition-all bg-white"
               >
                 <div className={`inline-flex p-3 rounded-xl ${category.color} mb-4 group-hover:scale-110 transition-transform`}>

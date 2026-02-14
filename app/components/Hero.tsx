@@ -30,7 +30,7 @@ export default function Hero() {
         
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           精选中文 AI 工具导航，国内网络可用优先。
-          编程、设计、写作、效率工具一站式发现。
+          按使用场景发现工具：写代码、做研究、搞设计、写文章...
         </p>
 
         <form onSubmit={handleSearch} className="relative max-w-xl mx-auto">

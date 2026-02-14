@@ -1,0 +1,118 @@
+[
+  {
+    "id": "deep-research",
+    "title": "深度研究",
+    "description": "系统性调研一个主题，从搜索到整理到输出",
+    "useCase": "research",
+    "steps": [
+      {
+        "order": 1,
+        "title": "搜索资料",
+        "description": "使用 AI 搜索引擎快速找到相关资料",
+        "recommendedTools": ["metaso", "kimi"],
+        "tips": ["使用学术模式获取更权威的资料", "多换几个关键词搜索"]
+      },
+      {
+        "order": 2,
+        "title": "阅读整理",
+        "description": "让 AI 帮你读长文、提取关键信息",
+        "recommendedTools": ["kimi", "claude"],
+        "tips": ["直接上传 PDF 或粘贴链接", "要求 AI 按主题分类整理"]
+      },
+      {
+        "order": 3,
+        "title": "总结输出",
+        "description": "生成研究报告或思维导图",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["要求生成大纲再展开", "让 AI 给出参考文献格式"]
+      }
+    ]
+  },
+  {
+    "id": "content-creation",
+    "title": "内容创作",
+    "description": "从选题到文案到配图，一站式内容生产",
+    "useCase": "write",
+    "steps": [
+      {
+        "order": 1,
+        "title": "选题策划",
+        "description": "AI 帮你头脑风暴选题",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["给出目标受众和平台", "要求多个角度供选择"]
+      },
+      {
+        "order": 2,
+        "title": "撰写文案",
+        "description": "生成初稿并优化",
+        "recommendedTools": ["claude", "kimi"],
+        "tips": ["先给大纲再展开", "分段生成质量更好"]
+      },
+      {
+        "order": 3,
+        "title": "配图生成",
+        "description": "为文章生成配图或封面",
+        "recommendedTools": ["tongyi-wanxiang", "midjourney"],
+        "tips": ["用 AI 优化提示词", "生成多张选择最佳"]
+      }
+    ]
+  },
+  {
+    "id": "landing-page",
+    "title": "制作 Landing Page",
+    "description": "从文案到设计到代码，快速上线一个页面",
+    "useCase": "code",
+    "steps": [
+      {
+        "order": 1,
+        "title": "文案策划",
+        "description": "写标题、卖点、CTA",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["先明确目标用户", "A/B 测试几个版本"]
+      },
+      {
+        "order": 2,
+        "title": "视觉设计",
+        "description": "生成主图、图标",
+        "recommendedTools": ["midjourney", "tongyi-wanxiang"],
+        "tips": ["保持风格一致", "准备多种尺寸"]
+      },
+      {
+        "order": 3,
+        "title": "代码实现",
+        "description": "写前端代码",
+        "recommendedTools": ["cursor", "github-copilot"],
+        "tips": ["用组件化思维", "先写结构再美化"]
+      }
+    ]
+  },
+  {
+    "id": "meeting-notes",
+    "title": "会议记录整理",
+    "description": "从录音到待办，自动整理会议内容",
+    "useCase": "automate",
+    "steps": [
+      {
+        "order": 1,
+        "title": "语音转文字",
+        "description": "将会议录音转为文字",
+        "recommendedTools": ["tongyi-tingwu"],
+        "tips": ["确保录音清晰", "区分发言人"]
+      },
+      {
+        "order": 2,
+        "title": "提取要点",
+        "description": "AI 总结会议要点",
+        "recommendedTools": ["kimi", "claude"],
+        "tips": ["要求按议题分类", "标注重要决策"]
+      },
+      {
+        "order": 3,
+        "title": "生成待办",
+        "description": "提取行动项并分配",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["明确负责人和截止日期", "同步到任务管理工具"]
+      }
+    ]
+  }
+]

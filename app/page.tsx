@@ -1,5 +1,5 @@
 import Hero from './components/Hero'
-import CategoryGrid from './components/CategoryGrid'
+import UseCaseGrid from './components/UseCaseGrid'
 import ToolList from './components/ToolList'
 import { getAllTools } from './lib/tools'
 
@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
-      <CategoryGrid />
+      <UseCaseGrid />
       <section className="py-16 px-4 max-w-7xl mx-auto">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-bold text-gray-900">热门工具</h2>
-          <a href="/tools" className="text-primary-600 hover:text-primary-700 font-medium">
+          <a href="/tools.html" className="text-primary-600 hover:text-primary-700 font-medium">
             查看全部 →
           </a>
         </div>

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "code-debug",
+    "useCase": "code",
+    "subScene": "debug",
+    "prompts": [
+      {
+        "title": "查找Bug",
+        "content": "这段代码运行报错：[粘贴错误信息]，请帮我找出问题所在并修复。"
+      },
+      {
+        "title": "解释错误",
+        "content": "我遇到了这个错误：[错误信息]，请解释这是什么意思，可能是什么原因导致的？"
+      },
+      {
+        "title": "代码Review",
+        "content": "请帮我Review这段代码，找出潜在的bug和性能问题：[粘贴代码]"
+      }
+    ]
+  },
+  {
+    "id": "code-new-feature",
+    "useCase": "code",
+    "subScene": "new-feature",
+    "prompts": [
+      {
+        "title": "生成功能代码",
+        "content": "我需要实现一个[功能描述]，使用[语言/框架]，请帮我生成代码。"
+      },
+      {
+        "title": "完善功能",
+        "content": "我已经写了一个基础版本：[粘贴代码]，请帮我完善并添加异常处理。"
+      }
+    ]
+  },
+  {
+    "id": "code-learn",
+    "useCase": "code",
+    "subScene": "learn",
+    "prompts": [
+      {
+        "title": "解释代码",
+        "content": "请逐行解释这段代码的作用：[粘贴代码]"
+      },
+      {
+        "title": "学习新技术",
+        "content": "我想学习[技术名称]，请给我一个简单的入门示例并解释关键概念。"
+      }
+    ]
+  },
+  {
+    "id": "research-quick",
+    "useCase": "research",
+    "subScene": "quick-search",
+    "prompts": [
+      {
+        "title": "快速查资料",
+        "content": "[问题]，请简洁回答，给出关键信息即可。"
+      },
+      {
+        "title": "查找对比",
+        "content": "[A] 和 [B] 有什么区别？请用表格对比。"
+      }
+    ]
+  },
+  {
+    "id": "research-deep",
+    "useCase": "research",
+    "subScene": "deep-research",
+    "prompts": [
+      {
+        "title": "深度调研",
+        "content": "我想深入了解[主题]，请从背景、现状、趋势、主要参与者几个方面系统介绍。"
+      },
+      {
+        "title": "整理框架",
+        "content": "关于[主题]，请帮我整理一个知识框架/思维导图结构。"
+      }
+    ]
+  },
+  {
+    "id": "research-summarize",
+    "useCase": "research",
+    "subScene": "summarize",
+    "prompts": [
+      {
+        "title": "总结长文",
+        "content": "请总结这篇长文的核心观点：[粘贴内容]"
+      },
+      {
+        "title": "提取要点",
+        "content": "从以下内容中提取关键信息和行动项：[粘贴内容]"
+      }
+    ]
+  },
+  {
+    "id": "write-article",
+    "useCase": "write",
+    "subScene": "article",
+    "prompts": [
+      {
+        "title": "写公众号文章",
+        "content": "请以[主题]为题，写一篇1500字左右的公众号文章，风格轻松易懂，有小标题。"
+      },
+      {
+        "title": "写技术博客",
+        "content": "请写一篇关于[技术主题]的技术博客，包含问题背景、解决方案、代码示例、总结。"
+      }
+    ]
+  },
+  {
+    "id": "write-copywriting",
+    "useCase": "write",
+    "subScene": "copywriting",
+    "prompts": [
+      {
+        "title": "小红书文案",
+        "content": "请为[产品/主题]写一篇小红书风格的文案，带emoji，有吸引力。"
+      },
+      {
+        "title": "朋友圈文案",
+        "content": "帮我写一条关于[主题]的朋友圈文案，简短有趣。"
+      }
+    ]
+  },
+  {
+    "id": "write-email",
+    "useCase": "write",
+    "subScene": "email",
+    "prompts": [
+      {
+        "title": "商务邮件",
+        "content": "请帮我写一封给[收件人]的邮件，主题是[主题]，语气正式但友好。"
+      },
+      {
+        "title": "跟进邮件",
+        "content": "请帮我写一封跟进邮件，询问[事项]的进展，语气礼貌。"
+      }
+    ]
+  },
+  {
+    "id": "design-poster",
+    "useCase": "design",
+    "subScene": "poster",
+    "prompts": [
+      {
+        "title": "生成海报",
+        "content": "请生成一张[主题]的海报，风格[描述]，包含[元素]。"
+      },
+      {
+        "title": "优化提示词",
+        "content": "我想生成[描述]的图片，请帮我优化提示词，让效果更好。"
+      }
+    ]
+  },
+  {
+    "id": "analyze-data",
+    "useCase": "analyze",
+    "subScene": "data",
+    "prompts": [
+      {
+        "title": "分析数据",
+        "content": "请分析以下数据并给出结论：[粘贴数据]"
+      },
+      {
+        "title": "生成图表",
+        "content": "请根据以下数据，建议用什么图表展示，并给出代码：[粘贴数据]"
+      }
+    ]
+  },
+  {
+    "id": "analyze-document",
+    "useCase": "analyze",
+    "subScene": "document",
+    "prompts": [
+      {
+        "title": "解读合同",
+        "content": "请帮我解读这份合同的关键条款和注意事项：[粘贴内容]"
+      },
+      {
+        "title": "提取信息",
+        "content": "从以下文档中提取[具体信息]：[粘贴内容]"
+      }
+    ]
+  }
+]

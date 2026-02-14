@@ -29,6 +29,93 @@
     ]
   },
   {
+    "id": "quick-search",
+    "title": "快速查资料",
+    "description": "5 分钟找到准确答案，适合日常问题",
+    "useCase": "research",
+    "steps": [
+      {
+        "order": 1,
+        "title": "AI 直接问答",
+        "description": "直接向 AI 提问获取答案",
+        "recommendedTools": ["kimi", "tongyi-qianwen"],
+        "tips": ["问题要具体", "必要时补充背景信息"]
+      },
+      {
+        "order": 2,
+        "title": "验证信息",
+        "description": "使用 AI 搜索确认关键信息",
+        "recommendedTools": ["metaso", "perplexity"],
+        "tips": ["检查信息来源", "对比多个结果"]
+      },
+      {
+        "order": 3,
+        "title": "整理存档",
+        "description": "将答案保存到笔记",
+        "recommendedTools": ["notion-ai", "kimi"],
+        "tips": ["用自己的话重新表述", "添加标签方便查找"]
+      }
+    ]
+  },
+  {
+    "id": "academic-research",
+    "title": "学术论文研读",
+    "description": "高效阅读学术论文，提取核心观点",
+    "useCase": "research",
+    "steps": [
+      {
+        "order": 1,
+        "title": "文献检索",
+        "description": "搜索相关学术论文",
+        "recommendedTools": ["metaso", "kimi"],
+        "tips": ["使用学术模式", "关注引用次数"]
+      },
+      {
+        "order": 2,
+        "title": "论文速读",
+        "description": "AI 帮你读论文，提取核心内容",
+        "recommendedTools": ["kimi", "claude"],
+        "tips": ["先读摘要和结论", "关注研究方法"]
+      },
+      {
+        "order": 3,
+        "title": "文献综述",
+        "description": "整合多篇论文观点",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["对比不同研究结论", "找出研究空白"]
+      }
+    ]
+  },
+  {
+    "id": "competitor-analysis",
+    "title": "竞品分析",
+    "description": "系统化分析竞争对手产品和策略",
+    "useCase": "research",
+    "steps": [
+      {
+        "order": 1,
+        "title": "信息收集",
+        "description": "收集竞品公开信息",
+        "recommendedTools": ["metaso", "kimi"],
+        "tips": ["官网、媒体报道、用户评价", "整理成结构化数据"]
+      },
+      {
+        "order": 2,
+        "title": "功能对比",
+        "description": "制作竞品功能对比表",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["列出核心功能", "标注差异化点"]
+      },
+      {
+        "order": 3,
+        "title": "策略分析",
+        "description": "分析竞品定位和策略",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["分析目标用户", "总结优劣势"]
+      }
+    ]
+  },
+  {
     "id": "content-creation",
     "title": "内容创作",
     "description": "从选题到文案到配图，一站式内容生产",
@@ -54,6 +141,93 @@
         "description": "为文章生成配图或封面",
         "recommendedTools": ["tongyi-wanxiang", "midjourney"],
         "tips": ["用 AI 优化提示词", "生成多张选择最佳"]
+      }
+    ]
+  },
+  {
+    "id": "email-writing",
+    "title": "商务邮件撰写",
+    "description": "快速写出得体的商务邮件",
+    "useCase": "write",
+    "steps": [
+      {
+        "order": 1,
+        "title": "明确目的",
+        "description": "确定邮件目标和关键信息",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["一句话概括邮件目的", "列出必须包含的信息"]
+      },
+      {
+        "order": 2,
+        "title": "生成草稿",
+        "description": "AI 生成邮件初稿",
+        "recommendedTools": ["claude", "kimi"],
+        "tips": ["指定语气和正式程度", "提供背景信息"]
+      },
+      {
+        "order": 3,
+        "title": "润色优化",
+        "description": "优化表达，检查礼仪",
+        "recommendedTools": ["claude", "kimi"],
+        "tips": ["检查称呼和落款", "确保简洁明了"]
+      }
+    ]
+  },
+  {
+    "id": "technical-docs",
+    "title": "技术文档编写",
+    "description": "编写清晰的技术文档和 API 文档",
+    "useCase": "write",
+    "steps": [
+      {
+        "order": 1,
+        "title": "梳理结构",
+        "description": "规划文档大纲和章节",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["参考优秀文档结构", "确定目标读者"]
+      },
+      {
+        "order": 2,
+        "title": "撰写内容",
+        "description": "编写各章节内容",
+        "recommendedTools": ["claude", "cursor"],
+        "tips": ["从代码中提取关键信息", "添加代码示例"]
+      },
+      {
+        "order": 3,
+        "title": "审查完善",
+        "description": "检查准确性和可读性",
+        "recommendedTools": ["claude", "kimi"],
+        "tips": ["验证技术准确性", "确保示例可运行"]
+      }
+    ]
+  },
+  {
+    "id": "social-media",
+    "title": "社媒内容批量生产",
+    "description": "高效产出小红书、朋友圈等社媒内容",
+    "useCase": "write",
+    "steps": [
+      {
+        "order": 1,
+        "title": "选题规划",
+        "description": "批量生成选题和角度",
+        "recommendedTools": ["chatgpt", "wenxin-yiyan"],
+        "tips": ["结合热点话题", "准备多种内容类型"]
+      },
+      {
+        "order": 2,
+        "title": "文案生成",
+        "description": "按平台调性生成文案",
+        "recommendedTools": ["wenxin-yiyan", "zhipu-qingyan"],
+        "tips": ["指定平台风格", "添加表情和话题标签"]
+      },
+      {
+        "order": 3,
+        "title": "配图制作",
+        "description": "生成或处理配图",
+        "recommendedTools": ["tongyi-wanxiang", "canva-ai"],
+        "tips": ["统一视觉风格", "按平台尺寸调整"]
       }
     ]
   },
@@ -87,6 +261,296 @@
     ]
   },
   {
+    "id": "debug-workflow",
+    "title": "Bug 排查修复",
+    "description": "系统化定位和修复代码 Bug",
+    "useCase": "code",
+    "steps": [
+      {
+        "order": 1,
+        "title": "描述问题",
+        "description": "向 AI 描述 Bug 现象和复现步骤",
+        "recommendedTools": ["cursor", "claude"],
+        "tips": ["提供错误信息和堆栈", "描述期望行为 vs 实际行为"]
+      },
+      {
+        "order": 2,
+        "title": "分析定位",
+        "description": "AI 帮助分析可能原因",
+        "recommendedTools": ["cursor", "github-copilot"],
+        "tips": ["贴出相关代码", "让 AI 解释代码逻辑"]
+      },
+      {
+        "order": 3,
+        "title": "修复验证",
+        "description": "实施修复并测试",
+        "recommendedTools": ["cursor", "tongyi-lingma"],
+        "tips": ["小步修改", "每改一步就测试"]
+      }
+    ]
+  },
+  {
+    "id": "code-review",
+    "title": "代码审查优化",
+    "description": "审查代码质量并给出改进建议",
+    "useCase": "code",
+    "steps": [
+      {
+        "order": 1,
+        "title": "整体扫描",
+        "description": "AI 扫描代码整体结构",
+        "recommendedTools": ["claude", "cursor"],
+        "tips": ["提供代码上下文", "说明代码目的"]
+      },
+      {
+        "order": 2,
+        "title": "问题识别",
+        "description": "识别潜在问题和改进点",
+        "recommendedTools": ["claude", "github-copilot"],
+        "tips": ["关注性能、安全、可读性", "按优先级排序"]
+      },
+      {
+        "order": 3,
+        "title": "优化重构",
+        "description": "实施代码优化",
+        "recommendedTools": ["cursor", "claude"],
+        "tips": ["小步重构", "保持功能不变"]
+      }
+    ]
+  },
+  {
+    "id": "learning-new-tech",
+    "title": "学习新技术栈",
+    "description": "快速上手新的编程语言或框架",
+    "useCase": "code",
+    "steps": [
+      {
+        "order": 1,
+        "title": "概念理解",
+        "description": "让 AI 解释核心概念",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["对比已知技术", "要求通俗解释"]
+      },
+      {
+        "order": 2,
+        "title": "实践练习",
+        "description": "跟着 AI 写示例代码",
+        "recommendedTools": ["cursor", "github-copilot"],
+        "tips": ["从简单例子开始", "逐步增加复杂度"]
+      },
+      {
+        "order": 3,
+        "title": "项目实战",
+        "description": "用新技术做一个小项目",
+        "recommendedTools": ["cursor", "tongyi-lingma"],
+        "tips": ["选择有实际意义的项目", "遇到问题及时问 AI"]
+      }
+    ]
+  },
+  {
+    "id": "api-development",
+    "title": "API 接口开发",
+    "description": "从设计到实现完整的后端 API",
+    "useCase": "code",
+    "steps": [
+      {
+        "order": 1,
+        "title": "接口设计",
+        "description": "设计 API 规范和接口文档",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["遵循 RESTful 规范", "明确请求响应格式"]
+      },
+      {
+        "order": 2,
+        "title": "代码实现",
+        "description": "编写 API 接口代码",
+        "recommendedTools": ["cursor", "github-copilot"],
+        "tips": ["先写接口骨架", "再填充业务逻辑"]
+      },
+      {
+        "order": 3,
+        "title": "测试调试",
+        "description": "测试 API 功能",
+        "recommendedTools": ["cursor", "claude"],
+        "tips": ["用 httpie 测试", "检查边界情况"]
+      }
+    ]
+  },
+  {
+    "id": "poster-design",
+    "title": "海报设计制作",
+    "description": "从创意到成品的完整海报设计流程",
+    "useCase": "design",
+    "steps": [
+      {
+        "order": 1,
+        "title": "创意构思",
+        "description": "确定主题和视觉风格",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["明确目标受众", "收集参考案例"]
+      },
+      {
+        "order": 2,
+        "title": "素材生成",
+        "description": "生成背景图和视觉元素",
+        "recommendedTools": ["tongyi-wanxiang", "midjourney"],
+        "tips": ["多生成几版选择", "注意版权问题"]
+      },
+      {
+        "order": 3,
+        "title": "排版合成",
+        "description": "添加文字和细节调整",
+        "recommendedTools": ["canva-ai", "gaoding-ai"],
+        "tips": ["注意文字层级", "检查可读性"]
+      }
+    ]
+  },
+  {
+    "id": "ui-design",
+    "title": "UI 界面设计",
+    "description": "设计 App 或网页的界面",
+    "useCase": "design",
+    "steps": [
+      {
+        "order": 1,
+        "title": "需求分析",
+        "description": "梳理功能需求和用户流程",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["画用户流程图", "确定核心功能"]
+      },
+      {
+        "order": 2,
+        "title": "原型设计",
+        "description": "制作低保真原型",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["先画线框图", "确定交互逻辑"]
+      },
+      {
+        "order": 3,
+        "title": "视觉设计",
+        "description": "制作高保真设计稿",
+        "recommendedTools": ["canva-ai", "tongyi-wanxiang"],
+        "tips": ["保持设计系统一致", "准备切图资源"]
+      }
+    ]
+  },
+  {
+    "id": "logo-creation",
+    "title": "Logo 创作",
+    "description": "从概念到成品的 Logo 设计",
+    "useCase": "design",
+    "steps": [
+      {
+        "order": 1,
+        "title": "品牌分析",
+        "description": "分析品牌定位和目标",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["明确品牌调性", "了解目标受众"]
+      },
+      {
+        "order": 2,
+        "title": "概念生成",
+        "description": "生成多种 Logo 概念",
+        "recommendedTools": ["midjourney", "tongyi-wanxiang"],
+        "tips": ["尝试不同风格", "多生成几版"]
+      },
+      {
+        "order": 3,
+        "title": "优化定稿",
+        "description": "细化选定方案",
+        "recommendedTools": ["canva-ai", "leonardo-ai"],
+        "tips": ["调整细节", "准备不同尺寸版本"]
+      }
+    ]
+  },
+  {
+    "id": "data-analysis-report",
+    "title": "数据分析报告",
+    "description": "从数据清洗到可视化报告",
+    "useCase": "analyze",
+    "steps": [
+      {
+        "order": 1,
+        "title": "数据清洗",
+        "description": "处理缺失值和异常值",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["检查数据完整性", "标准化格式"]
+      },
+      {
+        "order": 2,
+        "title": "数据分析",
+        "description": "统计分析并找出规律",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["选择合适的分析方法", "验证分析假设"]
+      },
+      {
+        "order": 3,
+        "title": "报告输出",
+        "description": "生成图表和报告",
+        "recommendedTools": ["claude", "gamma"],
+        "tips": ["图表清晰直观", "结论明确"]
+      }
+    ]
+  },
+  {
+    "id": "document-review",
+    "title": "合同文档审查",
+    "description": "审查合同条款，识别风险点",
+    "useCase": "analyze",
+    "steps": [
+      {
+        "order": 1,
+        "title": "全文扫描",
+        "description": "AI 通读合同全文",
+        "recommendedTools": ["kimi", "claude"],
+        "tips": ["上传完整文档", "说明合同类型"]
+      },
+      {
+        "order": 2,
+        "title": "风险识别",
+        "description": "识别潜在风险条款",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["关注责任划分", "检查违约条款"]
+      },
+      {
+        "order": 3,
+        "title": "修改建议",
+        "description": "给出修改建议",
+        "recommendedTools": ["claude", "kimi"],
+        "tips": ["提供具体修改方案", "说明修改理由"]
+      }
+    ]
+  },
+  {
+    "id": "decision-analysis",
+    "title": "决策分析",
+    "description": "系统化分析决策选项",
+    "useCase": "analyze",
+    "steps": [
+      {
+        "order": 1,
+        "title": "信息收集",
+        "description": "收集各选项相关信息",
+        "recommendedTools": ["metaso", "kimi"],
+        "tips": ["全面收集信息", "关注不同维度"]
+      },
+      {
+        "order": 2,
+        "title": "利弊分析",
+        "description": "分析各选项优缺点",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["列出优劣对比表", "考虑长期影响"]
+      },
+      {
+        "order": 3,
+        "title": "决策建议",
+        "description": "给出推荐决策",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["给出明确建议", "说明决策依据"]
+      }
+    ]
+  },
+  {
     "id": "meeting-notes",
     "title": "会议记录整理",
     "description": "从录音到待办，自动整理会议内容",
@@ -96,7 +560,7 @@
         "order": 1,
         "title": "语音转文字",
         "description": "将会议录音转为文字",
-        "recommendedTools": ["tongyi-tingwu"],
+        "recommendedTools": ["iflytek-tingxie", "feishu-miaoji"],
         "tips": ["确保录音清晰", "区分发言人"]
       },
       {
@@ -112,6 +576,93 @@
         "description": "提取行动项并分配",
         "recommendedTools": ["chatgpt", "claude"],
         "tips": ["明确负责人和截止日期", "同步到任务管理工具"]
+      }
+    ]
+  },
+  {
+    "id": "daily-report",
+    "title": "日报周报自动生成",
+    "description": "自动整理工作内容生成报告",
+    "useCase": "automate",
+    "steps": [
+      {
+        "order": 1,
+        "title": "信息收集",
+        "description": "整理当天工作内容",
+        "recommendedTools": ["kimi", "claude"],
+        "tips": ["列出完成的任务", "记录遇到的问题"]
+      },
+      {
+        "order": 2,
+        "title": "内容生成",
+        "description": "生成报告正文",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["使用模板", "突出关键成果"]
+      },
+      {
+        "order": 3,
+        "title": "格式化输出",
+        "description": "整理成标准格式",
+        "recommendedTools": ["notion-ai", "feishu-miaoji"],
+        "tips": ["统一格式", "添加明日计划"]
+      }
+    ]
+  },
+  {
+    "id": "workflow-automation",
+    "title": "重复工作自动化",
+    "description": "自动化日常重复性工作流程",
+    "useCase": "automate",
+    "steps": [
+      {
+        "order": 1,
+        "title": "流程梳理",
+        "description": "分析当前手工流程",
+        "recommendedTools": ["claude", "chatgpt"],
+        "tips": ["记录每一步操作", "找出重复模式"]
+      },
+      {
+        "order": 2,
+        "title": "脚本编写",
+        "description": "编写自动化脚本",
+        "recommendedTools": ["cursor", "chatgpt"],
+        "tips": ["从小处着手", "逐步扩展功能"]
+      },
+      {
+        "order": 3,
+        "title": "测试部署",
+        "description": "测试并部署自动化流程",
+        "recommendedTools": ["cursor", "github-copilot"],
+        "tips": ["充分测试", "设置监控报警"]
+      }
+    ]
+  },
+  {
+    "id": "ppt-creation",
+    "title": "PPT 快速制作",
+    "description": "从大纲到成品的 PPT 制作流程",
+    "useCase": "automate",
+    "steps": [
+      {
+        "order": 1,
+        "title": "大纲生成",
+        "description": "生成 PPT 大纲和结构",
+        "recommendedTools": ["chatgpt", "claude"],
+        "tips": ["明确目标受众", "确定核心信息"]
+      },
+      {
+        "order": 2,
+        "title": "内容填充",
+        "description": "生成每页内容",
+        "recommendedTools": ["claude", "kimi"],
+        "tips": ["每页一个主题", "图文结合"]
+      },
+      {
+        "order": 3,
+        "title": "美化排版",
+        "description": "使用 AI 工具生成 PPT",
+        "recommendedTools": ["gamma", "meta-ppt"],
+        "tips": ["选择合适模板", "保持视觉统一"]
       }
     ]
   }
